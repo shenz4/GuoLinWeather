@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="cool_weather.db"/>
+    <version value="2"/>
+
+    <list>
+        <mapping class="com.zhangshen147.android.GuolinWeather.db.Province"/>
+        <mapping class="com.zhangshen147.android.GuolinWeather.db.City"/>
+        <mapping class="com.zhangshen147.android.GuolinWeather.db.County"/>
+    </list>
+</litepal>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5867bc</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2f916f</color>
+    <color name="trans_blue_background">#ee4181cf</color>
+
+    <color name="bg_color_city_manager">#ffffff</color>
+</resources>
