@@ -6,7 +6,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zhangshen147.android.GuolinWeather.StartActivity">
+    tools:context="com.zhangshen147.android.GuoLinWeather.StartActivity">
 
     <ImageView
         android:id="@+id/start_image"

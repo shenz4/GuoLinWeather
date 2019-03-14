@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zhangshen147.android.GuolinWeather">
+    package="com.zhangshen147.android.GuoLinWeather">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,22 +12,22 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/icon"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".WeatherActivity" />
+        <activity android:name="com.zhangshen147.android.GuoLinWeather.MainActivity" />
+        <activity android:name="com.zhangshen147.android.GuoLinWeather.WeatherActivity" />
 
         <service
-            android:name=".service.AutoUpdateService"
+            android:name="com.zhangshen147.android.GuoLinWeather.service.AutoUpdateService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".StartActivity">
+        <activity android:name="com.zhangshen147.android.GuoLinWeather.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CityManagerActivity"></activity>
+        <activity android:name="com.zhangshen147.android.GuoLinWeather.CityManagerActivity"></activity>
     </application>
 
 </manifest>

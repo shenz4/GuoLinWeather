@@ -4,8 +4,8 @@
     <version value="2"/>
 
     <list>
-        <mapping class="com.zhangshen147.android.GuolinWeather.db.Province"/>
-        <mapping class="com.zhangshen147.android.GuolinWeather.db.City"/>
-        <mapping class="com.zhangshen147.android.GuolinWeather.db.County"/>
+        <mapping class="com.zhangshen147.android.GuoLinWeather.db.Province"/>
+        <mapping class="com.zhangshen147.android.GuoLinWeather.db.City"/>
+        <mapping class="com.zhangshen147.android.GuoLinWeather.db.County"/>
     </list>
 </litepal>
